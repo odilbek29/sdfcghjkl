@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 43px;
+}
+
+nav ul li a {
+    
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.q {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 24px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #F57520;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.hero1 {
+    padding: 80px;
+    background-image: url("./1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero1 h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    color: white;
+    padding-top: 80px;
+}
+
+.hero1 p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: white;
+    width: 645px;
+    margin: 48px 0;
+}
+
+.btn {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;
+    color: white;
+    padding: 16px 45px;
+    background-color: #F57520;
+    border-radius: 10px;
+    border: none;
+}
+.logo{
+    padding: 80px 0;
+    background-color: #777 ;
+    text-align: center;
+}
+.logo h2{
+font-size: 64px;
+font-weight: 800;
+line-height: 78.72px;
+letter-spacing: 0.05em;
+text-align: center;
+margin: 35px;
+}
+.card2{
+    width: 400px;
+    background-color: black;
+    text-decoration: left;
+    color: white;
+    border-radius: 20px;
+    overflow:  hidden;
+padding-bottom: 30px;
+
+}
+.card2 h3,p{
+    margin: 25px;
+}
+.card2:hover{
+    background-color: #F57520;
+    color: black;
+}
+.ota1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+justify-content: space-between;
+}
+.hero9 h2{
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+color: white;
+margin-bottom: 50px;
+}
+.hero9{
+    padding: 50px 0;
+    background-color: #F57520;
+    background-image: url("./image\ 86.png");
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+.hero9{
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+color: white;
+}
+
+.hero9 input{
+    width: 302px;
+    height: 49px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 16px 16px 0;
+}
+.hero9 textarea{
+    width: 630px;
+    height: 154px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 16px 16px 0;
+}
+.btn2{
+    width: 630px;
+    height: 54px;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.68px;
+color: #F57520;
+border-radius: 10px;
+background-color: white;
+border: none;
+}
+.ota5 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-top: 102px;
+}
+footer{
+    background: black;
+}
